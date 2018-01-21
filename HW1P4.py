@@ -1,12 +1,12 @@
-#Problem 4: Lists and Mutability
+#Problem 4: Lists and Mutability. Create a list, named yours, to store my favorite schools: ‘Yale’, ‘MIT’, and ‘Berkeley’; and create a list, named mine, to store 3 of your favorite schools whatever they are.
 yours=["Yale", "MIT", "Berkeley"]
 mine=["Stanford", "SJTU", "Yale"]
+#Use the + operator to create a new list, named ours1, to represent our favorite schools:
 ours1 = mine + yours
-
+#Now, create another list, name ours2, to again represent our favorite schools but this time use:
 ours2 = []
 ours2.append(mine)
 ours2.append(yours)
-
 #1. Print ours1 and ours2. Describe how ours1 and ours2 differ from each other.
 print(ours1)
 print(ours2)

@@ -1,4 +1,4 @@
-#Problem 3: Iterative and Recursive Operations
+#Problem 3: Iterative and Recursive Operations. Write an iterative function and a recursive function that computes the sum of all numbers from 1 to n, where n is given as parameter. Test both functions for n = 100.
 #iterative operation
 def iterative(n):
     mysum = 0
